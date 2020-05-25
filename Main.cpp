@@ -234,7 +234,7 @@ int main()
 	
 	welcomeMessage();
 	
-	fileName = chooseDictionaryFile(); // Deciding what dictionary to choose
+	fileName ="data/" + chooseDictionaryFile(); // Deciding what dictionary to choose
 	
 	cout<<"\nLoading data. Please wait :) ";
 	
